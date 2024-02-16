@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html and css forms</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="wrapper">
+        <form action="">
+            <div id="image"></div>
+            <label for="image"><h1><b>RCM</b></h1></label>
+            <input type="image" name="image" src="https://media-exp1.licdn.com/dms/image/C4D0BAQE4T50KWcD7dw/company-logo_200_200/0/1607082812852?e=2159024400&v=beta&t=hu8ni98mlh5NwcUTVxLgSzGnGboJpNhAb9g1D2d4bB0" id="image" >
+            <h1><b>Login Page</b></h1>
+            <div id="input-box">
+                <input type="text" placeholder="Username" required>
+                <i class='bx bxs-user'></i>
+            </div>
+            <div id="input-box">
+                <input type="password" placeholder="password" required>
+                <i class='bx bxs-lock-alt'></i>
+            </div>
+            <div class="remember-forgot">
+                <label><input type="checkbox">Remember Me</label>
+                <a href="#">Forgot password?</a>
+            </div>
+            <button type="submit" class="btn">login</button>
+            <div class="register-link">
+                <p>Don't have an account? <a href="#">Register</a></p>
+            </div>
+        </form>
+        <form action="">
+            <h3><b><i>Students Tell About Yourself!!</i></b></h3><br>
+            <label><b>Enter your name</b></label> <br><br>
+            <input type="text" name="firstname" placeholder="Your Name">
+            <hr>
+            <label for=""> <b>Gender?</b> </label><br><br>
+            <input type="radio" name="radio" value="Male">Male<br>
+            <input type="radio" name="radio" value="Female">Female<br>
+            <hr>
+            <label for=""><b>Date Of Birth(DOB)?</b></label><br><br>
+            <input type="date" name="date" value="date"><br>
+            <hr>
+            <label for=""><b>Submit your document file of 12th.</b></label><br><br>
+            <input type="file" >
+            <hr>
+            <label for=""> <b>Student of PG/UG?</b> </label><br><br>
+            <input type="radio" name="radio" value="Under Graduate">Under Graduate(UG) <br>
+            <input type="radio" name="radio" value="Post Graduate">Post Graduate(PG)<br>
+            <hr>
+            <label for=""><b>Which course you are in?</label><br><br>
+            <input type="radio" name="radio" value="BBA">BBA<br>
+            <input type="radio" name="radio" value="BCA">BCA<br>
+            <input type="radio" name="radio" value="MBA">MBA<br>
+            <input type="radio" name="radio" value="MCA">McA<br>
+            <hr>
+            <label for=""><b>what is your hobbies?</b></label><br><br>
+            <input type="checkbox" name="checkbox" value="Singing">Singing<br>
+            <input type="checkbox" name="checkbox" value="Dancing">Dancing<br>
+            <input type="checkbox" name="checkbox" value="Playing">Playing<br>
+            <input type="checkbox" name="checkbox" value="Painting">Painting<br>
+            <hr>
+            <label for=""><b>what is your favourite color?</b></label><br>
+            <input type="color">
+            <hr>
+            <label for=""><b>Number of friends you have in RCM?</b></label><br>
+            <input type="number">
+            <hr>
+            <label for=""><b>How much you love RCM?</b></label><br>
+            <input type="range">
+            <hr>
+            <label for=""><b>Give your veiw on RCM.</b></label>
+            <input type="text" name=""><br>
+            <hr>
+            <label for=""><b>At which time you are submitting this?</b></label><br>
+            <input type="time"><br>
+            <hr>
+            <label for="Submit"><b>Submite your form</b></label><br>
+            <input type="button" value="submit">
+            <hr>
+            
+
+        </form>
+    </div>
+    
+    
+</body>
+</html>
